@@ -103,7 +103,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             case .failure(let error):
                 print(error)
             case .success(let topics):
-                print("len=")
+              //  print("len=")
                 print(topics.count)
                 self?.topicViewTable.setTopics(topics: topics)
                 //self?.topicList = topics
